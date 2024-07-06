@@ -5,3 +5,5 @@ image:
 port: 5000
 service:
   type: ClusterIP
+maxUnavailable: 1
+maxSurge: 1
