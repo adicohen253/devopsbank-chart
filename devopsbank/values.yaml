@@ -1,7 +1,7 @@
 replicas: 3
 name: devopsbank
 image:
-  version: "1.0.10"
+  version: "1.0.11"
 port: 5000
 service:
   type: ClusterIP
